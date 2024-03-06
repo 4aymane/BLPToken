@@ -1,0 +1,95 @@
+# Directories #
+[Bb]in/
+[Oo]bj/
+[Pp]ackages/
+[Tt]est[Rr]esults/
+[Tt]ools/
+lib/
+logs/
+artifacts/
+
+# Files #
+*.user
+*.suo
+*.userprefs
+*.sln.docstates
+*.cache
+*.csproj.user
+*.vbproj.user
+*.swp
+*ReSharper*
+*resharper*
+*.dbmdl
+*.jfm
+*crashlytics-build.properties
+*.crashlytics
+*.pidb
+*.tlog
+*.log
+*.vspscc
+*.vssscc
+._*
+*.ncrunch*
+*.DotSettings*
+project.lock.json
+project.fragment.lock.json
+artifacts.json
+*.orig
+
+# Visual Studio 2022 cache/options directory #
+.vs/
+.idea/
+
+# Build results #
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# NuGet Packages #
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+nuget.exe
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+
+# Others #
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.mdb
+*.swp
+*.swo
+*.dll
+*.exe
+*.zip
+*.tar.gz
+*.tar.bz2
+*.rar
+*.7z
+*.egg-info/
+*node_modules/
+yarn.lock
+package-lock.json
+.paket
+paket-files
+.ionide
+terraform.tfstate
+.terraform/
+.idea/
+*.tmp
+tmp/
+temp/

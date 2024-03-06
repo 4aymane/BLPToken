@@ -1,0 +1,25 @@
+<div class="flex flex-col items-center justify-center px-6 py-8 mt-32 mx-auto">
+  <div class="w-full max-w-lg bg-white rounded-lg shadow md:mt-0 p-6">
+    <h1
+      class="text-2xl font-bold leading-tight tracking-tight text-gray-900 mb-6"
+    >
+      <span class="text-gray-600">{{ token?.name || '' }}</span>
+    </h1>
+    <div *ngIf="token" class="border-b last:border-b-0 py-4">
+      <div class="mb-2">
+        <div class="mb-2">
+          <span class="block text-sm font-medium text-gray-900"
+            >Total Supply:</span
+          >
+          <span class="text-gray-600">{{ token.totalSupply }} </span>
+        </div>
+        <div>
+          <span class="block text-sm font-medium text-gray-900"
+            >Circulating Supply:</span
+          >
+          <span class="text-gray-600">{{ token.circulatingSupply }} </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
